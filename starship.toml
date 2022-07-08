@@ -1,0 +1,37 @@
+# ~/.config/starship.toml
+
+[username]
+style_user = "red bold"
+style_root = "white bold"
+format = '[\[$user\] ]($style) '
+disabled = false
+show_always = true
+
+
+[git_branch]
+truncation_length = 4
+truncation_symbol = ""
+always_show_remote = true
+
+[git_commit]
+commit_hash_length = 4
+
+
+[git_status]
+ahead = "⇡${count}"
+diverged = "⇕⇡${ahead_count}⇣${behind_count}"
+behind = "⇣${count}"
+
+[nodejs]
+detect_extensions = ["js", "mjs", "cjs", "ts", "mts", "cts", "tsx", "jsx"]
+
+[directory]
+truncation_length = 2
+truncation_symbol = "…/"
+truncate_to_repo = false
+
+[time]
+style = "white bold"
+disabled = false
+format = '[\[ $time \]]($style) '
+time_format = "%T"
