@@ -1,5 +1,5 @@
 # accent: "#ff538f"
-accent: "#c0c1b5"
+accent: "#cccccc"
 background: "#0d0c0c"
 foreground: "#e0dfdf"
 details: "darker"
@@ -9,7 +9,7 @@ background_image:
   # the full path to the picture is: ~/.warp/themes/warp.jpg
   path: ./images/955301.jpg
   # the opacity value is required and can range from 0-100
-  opacity: 0
+  opacity: 15
 ############################################################### SEE ABOVE
 
 terminal_colors:
